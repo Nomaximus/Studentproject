@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" type="image/png" href="sneakers.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oni Biodata</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+<body>
+	<Header>
+    <a href="index.html" class="logo">Biodata</div>
+    <nav class="navbar">
+      <a href="index.html">HomePage</a>
+      <a href="Education.html" class="active">Education</a>
+      <a href="Achievement.html">Achievement</a>
+      <a href="Contact.html">Contact</a>
+	<a href="Gallery.html">Gallery </a>
+    </nav>
+  	</Header>
+
+  <section class="Education" id="education">
+    <h2 class="heading">Education</h2>
+    <div class="Education-container">
+      <div class="Education-box">
+        <div class="education-info">
+          <h4>SK BUKIT KAPAR</h4>
+          <img src="Picture/sekolah1.jpg" alt="School Image" class="school-img">
+	<button class="view-more-btn" onclick="openModal('SK BUKIT KAPAR', 'Picture/sekolah1.jpg')">View More</button>
+        </div>
+      </div>
+
+      <div class="Education-box">
+        <div class="education-info">
+          <h4>SK AGAMA BUKIT KAPAR</h4>
+          <img src="Picture/sekolah2.jpg" alt="School Image" class="school-img">
+	<button class="view-more-btn" onclick="openModal('SK AGAMA BUKIT KAPAR', 'Picture/sekolah2.jpg')">View More</button>
+        </div>
+      </div>
+
+      <div class="Education-box">
+        <div class="education-info">
+          <h4>SEKOLAH AGAMA MENENGAH NURUL UMAN</h4>
+          <img src="Picture/sekolah3.jpg" alt="School Image" class="school-img">
+	<button class="view-more-btn" onclick="openModal('SEKOLAH AGAMA MENENGAH NURUL UMAN', 'Picture/sekolah3.jpg')">View More</button>
+        </div>
+      </div>
+
+      <div class="Education-box">
+        <div class="education-info">
+          <h4>UiTM Cawangan Sarawak (DEGREE) </h4>
+          <img src="Picture/auni10.jpg" alt="School Image" class="school-img">
+	<button class="view-more-btn" onclick="openModal('UiTM CAWANGAN SARAWAK', 'Picture/auni10.jpg')">View More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+<footer class="footer">
+<div class="socials">
+
+<a href="https://www.instagram.com/aaaaliiiq?igsh=bThwY28wcm1yb3E1&utm_source=qr"><i class="fa-brands fa-instagram"></i>
+</div>
+
+<ul>
+<li><a href="#"> FAQ </a></li> 
+<li><a href="Education.html"> Education </a></li> 
+<li><a href="Achievement.html"> Achievement </a></li> 
+<li><a href="Contact.html"> Contact </a></li> 
+</ul>
+  <div class="copyright">
+    &copy; 2025 Khaliq. All Rights Reserved.
+  </div>
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h3 id="modal-title"></h3>
+    <img id="modal-image" src="" style="width: 100%; border-radius: 8px;" />
+  </div>
+</div>
+<script src="javascript.js"></script>
+</body>
+</html>
